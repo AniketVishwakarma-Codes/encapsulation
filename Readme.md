@@ -1,13 +1,13 @@
-#1 BankAccount Problem: Secure Bank Account System
-Requirements:
+🏦 BankAccount Problem – Secure System
 
-Balance cannot be accessed directly
-Deposit allowed only if amount > 0
-Withdrawal:
-Must validate PIN
-Must check minimum balance
-PIN should never be returned
+Demonstrates a secure bank account implementation where balance and PIN are hidden, deposits and withdrawals are validated, and the account is locked after 3 incorrect PIN attempts.
 
-Account gets locked after 3 wrong PIN attempts
-Once locked → no operation allowed
-Internal data must be fully hidden
+📌 Concepts Covered
+
+Encapsulation
+
+Data Hiding
+
+Access Modifiers
+
+Validation Logic
